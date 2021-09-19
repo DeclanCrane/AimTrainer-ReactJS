@@ -3,6 +3,9 @@ header {
     justify-content: center;
     align-items: center;
     color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {

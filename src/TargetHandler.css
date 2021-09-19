@@ -1,5 +1,45 @@
 .container {
+    text-align: center;
     position: fixed;
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.game-info {
+    margin: 0;
+    padding: 0.5em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.game-info-div {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.countdown {
+    color: #fff;
+    margin: auto;
+    font-size: 64px;
+}
+
+.restartBtn {
+    margin-top: 1em;
+    color: #fff;
+    background: none;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid lightskyblue;
+    padding: 0.4em 0.8em;
+    border-radius: 20px;
+}
+
+.restartBtn:hover {
+    background: lightslategrey;
 }
